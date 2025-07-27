@@ -1,0 +1,545 @@
+{
+  host: '127.0.0.1',
+  database: 'calculator',
+  level: 'info',
+  message: 'Connected to mysql database',
+  timestamp: '2025-07-27 13:44:02'
+}
+{
+  query: 'CREATE TABLE IF NOT EXISTS users (\n' +
+    '            id INT AUTO_INCREMENT PRIMARY KEY,\n' +
+    '            username VARCHAR(255) UNIQUE NOT NULL,\n' +
+    '            email VARCHAR(255) UNIQUE NOT NULL,\n' +
+    '            pass VA...',
+  context: 'Initialize users table',
+  timestamp: '2025-07-27 13:44:02',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'Initialize users table',
+  duration: '13ms',
+  rowsAffected: 0,
+  timestamp: '2025-07-27 13:44:02',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  message: 'Database successfully initialized',
+  level: 'info',
+  timestamp: '2025-07-27 13:44:02'
+}
+{
+  method: 'GET',
+  url: '/api/data',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 8,
+  username: 'testuser3',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-27 13:44:21'
+}
+{
+  query: 'SELECT * FROM user_testuser3_data ORDER BY created_at DESC',
+  context: 'Get data from user_testuser3_data',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 8,
+  username: 'testuser3',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-27 13:44:21'
+}
+{
+  query: 'SELECT SUM(grade * credits) as totalPoints,\n' +
+    '             SUM(credits) as totalCredits FROM user_testuser3_data',
+  context: 'GPA Calculation: user_testuser3_data',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'Get data from user_testuser3_data',
+  duration: '22ms',
+  rowsAffected: 2,
+  timestamp: '2025-07-27 13:44:21',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser3',
+  numberOfClasses: 2,
+  level: 'info',
+  message: 'User data retrieved',
+  timestamp: '2025-07-27 13:44:21'
+}
+{
+  method: 'GET',
+  url: '/api/data',
+  statusCode: 200,
+  duration: '41ms',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  context: 'GPA Calculation: user_testuser3_data',
+  duration: '30ms',
+  rowsAffected: 1,
+  timestamp: '2025-07-27 13:44:21',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser3',
+  gpa: 4,
+  totalCredits: '8',
+  level: 'info',
+  message: 'GPA calculated',
+  timestamp: '2025-07-27 13:44:21'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  statusCode: 200,
+  duration: '39ms',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'GET',
+  url: '/api/data',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 8,
+  username: 'testuser3',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-27 13:44:21'
+}
+{
+  query: 'SELECT * FROM user_testuser3_data ORDER BY created_at DESC',
+  context: 'Get data from user_testuser3_data',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'Get data from user_testuser3_data',
+  duration: '4ms',
+  rowsAffected: 2,
+  timestamp: '2025-07-27 13:44:21',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser3',
+  numberOfClasses: 2,
+  level: 'info',
+  message: 'User data retrieved',
+  timestamp: '2025-07-27 13:44:21'
+}
+{
+  method: 'GET',
+  url: '/api/data',
+  statusCode: 200,
+  duration: '13ms',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 8,
+  username: 'testuser3',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-27 13:44:21'
+}
+{
+  query: 'SELECT SUM(grade * credits) as totalPoints,\n' +
+    '             SUM(credits) as totalCredits FROM user_testuser3_data',
+  context: 'GPA Calculation: user_testuser3_data',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'GPA Calculation: user_testuser3_data',
+  duration: '3ms',
+  rowsAffected: 1,
+  timestamp: '2025-07-27 13:44:21',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser3',
+  gpa: 4,
+  totalCredits: '8',
+  level: 'info',
+  message: 'GPA calculated',
+  timestamp: '2025-07-27 13:44:21'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  statusCode: 200,
+  duration: '13ms',
+  timestamp: '2025-07-27 13:44:21',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'DELETE',
+  url: '/api/data/2',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-27 13:44:25',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 8,
+  username: 'testuser3',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-27 13:44:25'
+}
+{
+  query: 'DELETE FROM user_testuser3_data WHERE id = ?',
+  context: 'Delete class in user_testuser3_data',
+  timestamp: '2025-07-27 13:44:25',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'Delete class in user_testuser3_data',
+  duration: '17ms',
+  rowsAffected: 0,
+  timestamp: '2025-07-27 13:44:25',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser3',
+  classId: '2',
+  level: 'info',
+  message: 'Class deleted',
+  timestamp: '2025-07-27 13:44:25'
+}
+{
+  method: 'DELETE',
+  url: '/api/data/2',
+  statusCode: 201,
+  duration: '34ms',
+  timestamp: '2025-07-27 13:44:25',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-27 13:44:25',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 8,
+  username: 'testuser3',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-27 13:44:25'
+}
+{
+  query: 'SELECT SUM(grade * credits) as totalPoints,\n' +
+    '             SUM(credits) as totalCredits FROM user_testuser3_data',
+  context: 'GPA Calculation: user_testuser3_data',
+  timestamp: '2025-07-27 13:44:25',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'GPA Calculation: user_testuser3_data',
+  duration: '10ms',
+  rowsAffected: 1,
+  timestamp: '2025-07-27 13:44:25',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser3',
+  gpa: 4,
+  totalCredits: '4',
+  level: 'info',
+  message: 'GPA calculated',
+  timestamp: '2025-07-27 13:44:25'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  statusCode: 200,
+  duration: '29ms',
+  timestamp: '2025-07-27 13:44:25',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'POST',
+  url: '/api/data',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-27 13:44:41',
+  body: { department: 'HISC', classId: 1311, grade: 2.67, credits: 3 },
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 8,
+  username: 'testuser3',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-27 13:44:41'
+}
+{
+  query: 'INSERT INTO user_testuser3_data (department, classId, grade, credits) VALUES (?, ?, ?, ?)',
+  context: 'Add class to user_testuser3_data',
+  timestamp: '2025-07-27 13:44:41',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'Add class to user_testuser3_data',
+  duration: '16ms',
+  rowsAffected: 0,
+  timestamp: '2025-07-27 13:44:41',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  query: 'SELECT * FROM user_testuser3_data WHERE id = ?',
+  context: 'Get created class',
+  timestamp: '2025-07-27 13:44:41',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'Get created class',
+  duration: '10ms',
+  rowsAffected: 1,
+  timestamp: '2025-07-27 13:44:41',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser3',
+  classId: 1311,
+  department: 'HISC',
+  level: 'info',
+  message: 'Class added successfully',
+  timestamp: '2025-07-27 13:44:41'
+}
+{
+  method: 'POST',
+  url: '/api/data',
+  statusCode: 201,
+  duration: '47ms',
+  timestamp: '2025-07-27 13:44:41',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-27 13:44:41',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 8,
+  username: 'testuser3',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-27 13:44:41'
+}
+{
+  query: 'SELECT SUM(grade * credits) as totalPoints,\n' +
+    '             SUM(credits) as totalCredits FROM user_testuser3_data',
+  context: 'GPA Calculation: user_testuser3_data',
+  timestamp: '2025-07-27 13:44:41',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'GPA Calculation: user_testuser3_data',
+  duration: '7ms',
+  rowsAffected: 1,
+  timestamp: '2025-07-27 13:44:41',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser3',
+  gpa: 3.43,
+  totalCredits: '7',
+  level: 'info',
+  message: 'GPA calculated',
+  timestamp: '2025-07-27 13:44:41'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  statusCode: 200,
+  duration: '32ms',
+  timestamp: '2025-07-27 13:44:41',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'PUT',
+  url: '/api/data/3',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-27 13:45:49',
+  body: { department: 'HISC', classId: 1311, grade: 2.33, credits: 3 },
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 8,
+  username: 'testuser3',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-27 13:45:49'
+}
+{
+  query: 'UPDATE user_testuser3_data SET department = ?, classId = ?, grade = ?, credits = ? WHERE id = ?',
+  context: 'Update class in user_testuser3_data',
+  timestamp: '2025-07-27 13:45:49',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'Update class in user_testuser3_data',
+  duration: '18ms',
+  rowsAffected: 0,
+  timestamp: '2025-07-27 13:45:49',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  query: 'SELECT * FROM user_testuser3_data WHERE id = ?',
+  context: 'Get updated class',
+  timestamp: '2025-07-27 13:45:49',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'Get updated class',
+  duration: '6ms',
+  rowsAffected: 1,
+  timestamp: '2025-07-27 13:45:49',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser3',
+  classId: 1311,
+  department: 'HISC',
+  level: 'info',
+  message: 'Class updated',
+  timestamp: '2025-07-27 13:45:49'
+}
+{
+  method: 'PUT',
+  url: '/api/data/3',
+  statusCode: 201,
+  duration: '43ms',
+  timestamp: '2025-07-27 13:45:49',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-27 13:45:50',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 8,
+  username: 'testuser3',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-27 13:45:50'
+}
+{
+  query: 'SELECT SUM(grade * credits) as totalPoints,\n' +
+    '             SUM(credits) as totalCredits FROM user_testuser3_data',
+  context: 'GPA Calculation: user_testuser3_data',
+  timestamp: '2025-07-27 13:45:50',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'GPA Calculation: user_testuser3_data',
+  duration: '6ms',
+  rowsAffected: 1,
+  timestamp: '2025-07-27 13:45:50',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser3',
+  gpa: 3.28,
+  totalCredits: '7',
+  level: 'info',
+  message: 'GPA calculated',
+  timestamp: '2025-07-27 13:45:50'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  statusCode: 200,
+  duration: '24ms',
+  timestamp: '2025-07-27 13:45:50',
+  level: 'http',
+  message: 'Request Completed'
+}

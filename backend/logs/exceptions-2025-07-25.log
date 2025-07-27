@@ -1,0 +1,852 @@
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:73:19)
+      at lexer (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:91:27)
+      at lexer.next (<anonymous>)
+      at Iter.peek (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:106:38)
+      at Iter.tryConsume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:112:28)
+      at Iter.text (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:128:30)
+      at consume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:152:29)
+      at parse (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:183:20)
+      at C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:294:74
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri Jul 25 2025 20:22:20 GMT-0500 (Central Daylight Time)',
+  process: {
+    pid: 24824,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 62738432,
+      heapTotal: 31842304,
+      heapUsed: 17985864,
+      external: 2504425,
+      arrayBuffers: 37111
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1398100.859 },
+  trace: [
+    {
+      column: 19,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 91,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 38,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 106,
+      method: 'peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 112,
+      method: 'tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 30,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 128,
+      method: 'text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 152,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 183,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 294,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-07-25 20:22:20'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:73:19)
+      at lexer (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:91:27)
+      at lexer.next (<anonymous>)
+      at Iter.peek (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:106:38)
+      at Iter.tryConsume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:112:28)
+      at Iter.text (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:128:30)
+      at consume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:152:29)
+      at parse (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:183:20)
+      at C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:294:74
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri Jul 25 2025 20:22:39 GMT-0500 (Central Daylight Time)',
+  process: {
+    pid: 24472,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 62984192,
+      heapTotal: 31842304,
+      heapUsed: 17964704,
+      external: 2496935,
+      arrayBuffers: 29621
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1398119.265 },
+  trace: [
+    {
+      column: 19,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 91,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 38,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 106,
+      method: 'peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 112,
+      method: 'tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 30,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 128,
+      method: 'text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 152,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 183,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 294,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-07-25 20:22:39'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:73:19)
+      at lexer (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:91:27)
+      at lexer.next (<anonymous>)
+      at Iter.peek (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:106:38)
+      at Iter.tryConsume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:112:28)
+      at Iter.text (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:128:30)
+      at consume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:152:29)
+      at parse (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:183:20)
+      at C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:294:74
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri Jul 25 2025 20:22:45 GMT-0500 (Central Daylight Time)',
+  process: {
+    pid: 24952,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 62894080,
+      heapTotal: 32104448,
+      heapUsed: 17888856,
+      external: 2496935,
+      arrayBuffers: 29621
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1398125.281 },
+  trace: [
+    {
+      column: 19,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 91,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 38,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 106,
+      method: 'peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 112,
+      method: 'tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 30,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 128,
+      method: 'text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 152,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 183,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 294,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-07-25 20:22:45'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:73:19)
+      at lexer (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:91:27)
+      at lexer.next (<anonymous>)
+      at Iter.peek (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:106:38)
+      at Iter.tryConsume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:112:28)
+      at Iter.text (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:128:30)
+      at consume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:152:29)
+      at parse (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:183:20)
+      at C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:294:74
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri Jul 25 2025 20:22:56 GMT-0500 (Central Daylight Time)',
+  process: {
+    pid: 14560,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 62726144,
+      heapTotal: 31842304,
+      heapUsed: 17973720,
+      external: 2498670,
+      arrayBuffers: 31356
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1398136.562 },
+  trace: [
+    {
+      column: 19,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 91,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 38,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 106,
+      method: 'peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 112,
+      method: 'tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 30,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 128,
+      method: 'text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 152,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 183,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 294,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-07-25 20:22:56'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:73:19)
+      at lexer (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:91:27)
+      at lexer.next (<anonymous>)
+      at Iter.peek (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:106:38)
+      at Iter.tryConsume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:112:28)
+      at Iter.text (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:128:30)
+      at consume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:152:29)
+      at parse (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:183:20)
+      at C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:294:74
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri Jul 25 2025 20:23:41 GMT-0500 (Central Daylight Time)',
+  process: {
+    pid: 16432,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 63045632,
+      heapTotal: 32104448,
+      heapUsed: 17809296,
+      external: 2496935,
+      arrayBuffers: 29621
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1398181.5 },
+  trace: [
+    {
+      column: 19,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 91,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 38,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 106,
+      method: 'peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 112,
+      method: 'tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 30,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 128,
+      method: 'text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 152,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 183,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 294,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-07-25 20:23:41'
+}
+{
+  error: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+      at name (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:73:19)
+      at lexer (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:91:27)
+      at lexer.next (<anonymous>)
+      at Iter.peek (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:106:38)
+      at Iter.tryConsume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:112:28)
+      at Iter.text (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:128:30)
+      at consume (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:152:29)
+      at parse (C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:183:20)
+      at C:\Users\ujjwa\OneDrive\Desktop\Web Projects (My Original Code)\GPA-Calculator-(RM)\backend\node_modules\path-to-regexp\dist\index.js:294:74
+      at Array.map (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  stack: 'TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError\n' +
+    '    at name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:73:19)\n' +
+    '    at lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:91:27)\n' +
+    '    at lexer.next (<anonymous>)\n' +
+    '    at Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:106:38)\n' +
+    '    at Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:112:28)\n' +
+    '    at Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:128:30)\n' +
+    '    at consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:152:29)\n' +
+    '    at parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:183:20)\n' +
+    '    at C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js:294:74\n' +
+    '    at Array.map (<anonymous>)',
+  exception: true,
+  date: 'Fri Jul 25 2025 20:24:03 GMT-0500 (Central Daylight Time)',
+  process: {
+    pid: 13968,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v22.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 62619648,
+      heapTotal: 31842304,
+      heapUsed: 17927672,
+      external: 2496935,
+      arrayBuffers: 29621
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1398203.156 },
+  trace: [
+    {
+      column: 19,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'name (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'lexer (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 91,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'lexer.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 38,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 106,
+      method: 'peek (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 112,
+      method: 'tryConsume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 30,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'Iter.text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 128,
+      method: 'text (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'consume (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 152,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'parse (C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 183,
+      method: null,
+      native: false
+    },
+    {
+      column: 74,
+      file: 'My Original Code)\\GPA-Calculator-(RM)\\backend\\node_modules\\path-to-regexp\\dist\\index.js',
+      function: 'C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects',
+      line: 294,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    }
+  ],
+  timestamp: '2025-07-25 20:24:03'
+}
