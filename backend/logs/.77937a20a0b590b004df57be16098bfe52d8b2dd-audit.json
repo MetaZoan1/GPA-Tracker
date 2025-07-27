@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\logs\\.77937a20a0b590b004df57be16098bfe52d8b2dd-audit.json",
+    "files": [
+        {
+            "date": 1753483336916,
+            "name": "C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\logs\\exceptions-2025-07-25.log",
+            "hash": "7d0835f3c19cb9773525d97bf594b97ccac8e6601859b4ab2f62566ed3ce2085"
+        },
+        {
+            "date": 1753641660924,
+            "name": "C:\\Users\\ujjwa\\OneDrive\\Desktop\\Web Projects (My Original Code)\\GPA-Calculator-(RM)\\backend\\logs\\exceptions-2025-07-27.log",
+            "hash": "1606ab5aba03b3a85a13cef01d0fc424f0d3beaca39d9ab608cbdbfdeec6627d"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,226 @@
+{
+  method: 'POST',
+  url: '/api/data',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-25 19:08:37',
+  body: { department: 'CSCI', classId: 4041, grade: 3, credits: 4 },
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 2,
+  username: 'testuser',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-25 19:08:37'
+}
+{
+  method: 'POST',
+  url: '/api/data',
+  statusCode: 201,
+  duration: '12ms',
+  timestamp: '2025-07-25 19:08:37',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-25 19:08:37',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 2,
+  username: 'testuser',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-25 19:08:37'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  statusCode: 200,
+  duration: '3ms',
+  timestamp: '2025-07-25 19:08:37',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'GET',
+  url: '/api/data',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-25 19:08:55',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 2,
+  username: 'testuser',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-25 19:08:55'
+}
+{
+  query: 'SELECT * FROM user_testuser_data ORDER BY created_at DESC',
+  context: 'Get data from user_testuser_data',
+  timestamp: '2025-07-25 19:08:55',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'Get data from user_testuser_data',
+  duration: '2ms',
+  rowsAffected: 2,
+  timestamp: '2025-07-25 19:08:55',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser',
+  numberOfClasses: 2,
+  level: 'info',
+  message: 'User data retrieved',
+  timestamp: '2025-07-25 19:08:55'
+}
+{
+  method: 'GET',
+  url: '/api/data',
+  statusCode: 200,
+  duration: '6ms',
+  timestamp: '2025-07-25 19:08:55',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-25 19:08:55',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 2,
+  username: 'testuser',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-25 19:08:55'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  statusCode: 200,
+  duration: '3ms',
+  timestamp: '2025-07-25 19:08:55',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'GET',
+  url: '/api/data',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-25 19:08:55',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 2,
+  username: 'testuser',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-25 19:08:55'
+}
+{
+  query: 'SELECT * FROM user_testuser_data ORDER BY created_at DESC',
+  context: 'Get data from user_testuser_data',
+  timestamp: '2025-07-25 19:08:55',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'Get data from user_testuser_data',
+  duration: '1ms',
+  rowsAffected: 2,
+  timestamp: '2025-07-25 19:08:55',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  username: 'testuser',
+  numberOfClasses: 2,
+  level: 'info',
+  message: 'User data retrieved',
+  timestamp: '2025-07-25 19:08:55'
+}
+{
+  method: 'GET',
+  url: '/api/data',
+  statusCode: 200,
+  duration: '5ms',
+  timestamp: '2025-07-25 19:08:55',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0',
+  timestamp: '2025-07-25 19:08:55',
+  level: 'http',
+  message: 'Incoming request'
+}
+{
+  userId: 2,
+  username: 'testuser',
+  level: 'debug',
+  message: 'Authentication successful',
+  timestamp: '2025-07-25 19:08:55'
+}
+{
+  method: 'GET',
+  url: '/api/data/gpa',
+  statusCode: 200,
+  duration: '2ms',
+  timestamp: '2025-07-25 19:08:55',
+  level: 'http',
+  message: 'Request Completed'
+}
+{
+  host: '127.0.0.1',
+  database: 'calculator',
+  level: 'info',
+  message: 'Connected to mysql database',
+  timestamp: '2025-07-25 20:24:26'
+}
+{
+  query: 'CREATE TABLE IF NOT EXISTS users (\n' +
+    '            id INT AUTO_INCREMENT PRIMARY KEY,\n' +
+    '            username VARCHAR(255) UNIQUE NOT NULL,\n' +
+    '            email VARCHAR(255) UNIQUE NOT NULL,\n' +
+    '            pass VA...',
+  context: 'Initialize users table',
+  timestamp: '2025-07-25 20:24:26',
+  level: 'debug',
+  message: 'Database query started'
+}
+{
+  context: 'Initialize users table',
+  duration: '17ms',
+  rowsAffected: 0,
+  timestamp: '2025-07-25 20:24:26',
+  level: 'debug',
+  message: 'Database query completed'
+}
+{
+  message: 'Database successfully initialized',
+  level: 'info',
+  timestamp: '2025-07-25 20:24:26'
+}
